@@ -127,3 +127,7 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+venv/
+images
+resources/imagenet_classes.txt
+.idea
