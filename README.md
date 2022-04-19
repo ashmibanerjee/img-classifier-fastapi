@@ -19,4 +19,4 @@
 
 ## Further Readings
 
-The resources and further readings can be found [here](/resources/Readings.md).
+The resources and further readings can be found [here](https://gist.github.com/ashmibanerjee/749e7dbf5f9eefa56337a55342234720).
