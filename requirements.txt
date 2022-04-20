@@ -6,3 +6,4 @@ pydantic==1.9.0
 torch
 torchvision
 Pillow
+flask

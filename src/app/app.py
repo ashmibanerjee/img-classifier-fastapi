@@ -16,7 +16,7 @@ async def predict_api(img_url: str):
         # the exception is raised, not returned - you will get a validation
         # error otherwise.
         raise HTTPException(
-            status_code=404, detail="Image could not be downloaded "
+            status_code=404, detail="Image could not be downloaded"
 
         )
 
