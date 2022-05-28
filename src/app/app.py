@@ -11,7 +11,7 @@ async def read_main():
 
 @app.post("/predict/", status_code=200)
 async def predict_api(img_url: str):
-    prediction = run_classifier(img_url)
+    prediction = torch_run_classifier(img_url)
     if not prediction:
         # the exception is raised, not returned - you will get a validation
         # error otherwise.

@@ -12,7 +12,7 @@ def read_main():
 @app.route("/predict/", methods=["POST"])
 def predict_api(img_url: str):
     if request.method == "POST":
-        prediction = run_classifier(img_url)
+        prediction = torch_run_classifier(img_url)
         if not prediction:
             return {
                 "status_code": 404,
