@@ -38,8 +38,7 @@ def get_labels():
     if not os.path.exists(SAVE_LOCATION + 'imagenet_classes.txt'):
         dir_check(SAVE_LOCATION)
         print("downloading imgnet classes in: ", SAVE_LOCATION)
-        url = "https://raw.githubusercontent.com/pytorch/hub/master" \
-              "/imagenet_classes.txt "
+        url = "https://raw.githubusercontent.com/pytorch/hub/master/imagenet_classes.txt"
         r = requests.get(url, allow_redirects=True)
         open(SAVE_LOCATION + 'imagenet_classes.txt', 'wb').write(r.content)
 
