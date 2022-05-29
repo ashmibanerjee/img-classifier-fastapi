@@ -35,5 +35,4 @@ async def predict_tf(img_url: str):
 
         )
 
-    return {"predicted_label": prediction[0],
-            "probability": prediction[1]}
+    return prediction

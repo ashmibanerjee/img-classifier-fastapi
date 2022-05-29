@@ -18,17 +18,31 @@ def load_model():
     return classifier
 
 
-def tf_predict(img_original):
-    img = img_original
+def preprocess_img(img):
     img = img.resize(IMAGE_SHAPE)
-    img_array = tf.keras.utils.img_to_array(img)
-    img_array = tf.expand_dims(img_array, 0)  # Create a batch
-
     img = np.array(img) / 255
-    model = load_model()
-    result = model.predict(img[np.newaxis, ...])
-    predicted_class = tf.math.argmax(result[0], axis=-1)
+    return img
+
+
+def load_labels():
     labels_path = tf.keras.utils.get_file('ImageNetLabels.txt',
                                           'https://storage.googleapis.com/download.tensorflow.org/data/ImageNetLabels.txt')
     imagenet_labels = np.array(open(labels_path).read().splitlines())
+    return imagenet_labels
+
+
+def tf_predict(img_original):
+
+    img = preprocess_img(img_original)
+
+    model = load_model()
+    result = model.predict(img[np.newaxis, ...])
+    predicted_class = tf.math.argmax(result[0], axis=-1)
+    scores = tf.nn.softmax(result[0])
+    probability = np.max(scores)
+
+    imagenet_labels = load_labels()
     predicted_class_name = imagenet_labels[predicted_class]
+
+    return {"predicted_label": predicted_class_name,
+            "probability": probability.item()}
