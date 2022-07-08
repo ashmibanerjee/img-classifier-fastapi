@@ -17,6 +17,11 @@
    * `python3 src/main.py`
    
 
+## Running the performance Tests using Locust
+
+1. `locust -f tests/performance-tests/locust_test.py 
+`
+2. Tests should appear at `http://127.0.0.1:8089/`
 
 ## Further Readings
 
