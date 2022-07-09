@@ -18,7 +18,12 @@
 5. Server should be running at `http://127.0.0.1:8000/docs`
    
 
-## Running the performance Tests using Locust
+## Testing the End points
+
+### Running Unit Tests
+1. `pytest`
+
+### Running the performance Tests using Locust
 
 1. `locust -f tests/performance-tests/locust_test.py 
 `

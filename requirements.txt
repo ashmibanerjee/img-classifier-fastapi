@@ -10,3 +10,4 @@ flask==2.1.2
 tensorflow
 locust
 tensorflow_hub
+pytest

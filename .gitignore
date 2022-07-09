@@ -131,3 +131,4 @@ venv/
 images
 resources/imagenet_classes.txt
 .idea
+tests/resources/
