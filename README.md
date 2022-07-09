@@ -32,6 +32,7 @@
 
 ## Further Readings
 
+### FastAPI
 * [First Steps - FastAPI (tiangolo.com)](https://fastapi.tiangolo.com/tutorial/first-steps/)
 * [Serving ML easily with FastAPI (slideshare.net)](https://www.slideshare.net/SebastinRamrezMontao/serving-ml-easily-with-fastapi?from_action=save)
 * [Tutorial - User Guide - Intro - FastAPI (tiangolo.com)](https://fastapi.tiangolo.com/tutorial/)
@@ -40,3 +41,8 @@
 * [Build And Host Fast Data Science Applications Using FastAPI | by Farhad Malik | Towards Data Science](https://towardsdatascience.com/build-and-host-fast-data-science-applications-using-fastapi-823be8a1d6a0#:~:text=Netflix%2C%20Uber%2C%20Microsoft%20amongst%20many,on%20standard%20Python%20type%20hints.)
 * [For fast and secure sites | Jamstack](https://jamstack.org/)
 * [An introduction to the JAMstack: the architecture of the modern web](https://www.freecodecamp.org/news/an-introduction-to-the-jamstack-the-architecture-of-the-modern-web-c4a0d128d9ca/)
+
+### Testing
+* [FastAPI - testing](https://fastapi.tiangolo.com/tutorial/testing/)
+* [https://locust.io/](https://locust.io/)
+* [Performance testing FastAPI ML APIs with Locust](https://rubikscode.net/2022/03/21/performance-testing-fastapi-ml-apis-with-locust/)
