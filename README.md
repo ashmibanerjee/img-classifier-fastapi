@@ -3,6 +3,8 @@
 ## Pre-requisites
 * Python (3.6+)
 
+## Tutorial
+:pushpin: [A 4 Step Tutorial to Serve an ML Model in Production using FastAPI](https://medium.com/@ashmi_banerjee/4-step-tutorial-to-serve-an-ml-model-in-production-using-fastapi-ee62201b3db3)
 ## Running the Code
 
 1. Clone the project
@@ -16,7 +18,6 @@
 4. Run the server
    * `python3 src/main.py`
 5. Server should be running at `http://127.0.0.1:8000/docs`
-   
 
 ## Testing the End points
 
