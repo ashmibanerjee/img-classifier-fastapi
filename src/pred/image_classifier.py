@@ -17,4 +17,5 @@ def tf_run_classifier(image: str) -> Any:
     if img is None:
         return None
     pred_results = tf_predict(img)
+    pred_results["status_code"] = 200
     return pred_results

@@ -8,3 +8,5 @@ torchvision
 Pillow==9.1.1
 flask==2.1.2
 tensorflow
+locust
+tensorflow_hub

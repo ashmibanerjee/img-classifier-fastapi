@@ -15,6 +15,7 @@
    * `pip3 install -r requirements.txt`
 4. Run the server
    * `python3 src/main.py`
+5. Server should be running at `http://127.0.0.1:8000/docs`
    
 
 ## Running the performance Tests using Locust
