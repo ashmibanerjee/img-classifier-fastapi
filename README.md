@@ -43,6 +43,6 @@
 * [An introduction to the JAMstack: the architecture of the modern web](https://www.freecodecamp.org/news/an-introduction-to-the-jamstack-the-architecture-of-the-modern-web-c4a0d128d9ca/)
 
 ### Testing
-* [FastAPI - testing](https://fastapi.tiangolo.com/tutorial/testing/)
+* [FastAPI - testing (tiangolo.com)](https://fastapi.tiangolo.com/tutorial/testing/)
 * [https://locust.io/](https://locust.io/)
 * [Performance testing FastAPI ML APIs with Locust](https://rubikscode.net/2022/03/21/performance-testing-fastapi-ml-apis-with-locust/)
